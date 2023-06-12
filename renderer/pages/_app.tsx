@@ -13,8 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const MenuBarVoid = (action:string) => {
     ipcRenderer.send(action);
   }
-
-  return (
+ return (
   <> 
   <nav>
   <div></div>
